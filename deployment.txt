@@ -1,0 +1,3 @@
+PASSOS:
+- Dar npm run build no frontend, e direcionar para essa build ser 
+criada na pasta public de server
