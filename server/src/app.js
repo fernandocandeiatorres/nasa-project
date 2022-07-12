@@ -7,6 +7,7 @@ const rfs = require("rotating-file-stream");
 
 const planetsRouter = require("./routes/planets/planets.router");
 const launchesRouter = require("./routes/launches/launches.router");
+const { deleteLaunch } = require("./routes/launches/launches.controller");
 
 const app = express();
 
